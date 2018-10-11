@@ -1,0 +1,5 @@
+Comments :
+Below are the issues with the current code:
+The xpath used to store all the elements in List is not correct because the options are present under the child node so we have to use the descendant to fetch all the child and grandchild elements of current node
+Second the wait issue because in your code you are using sleep which is not at all recommended because sleep impacts the performance.
+I have fixed the above issue and now its working fine.
