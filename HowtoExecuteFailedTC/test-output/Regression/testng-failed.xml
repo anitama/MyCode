@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Regression]">
+  <test name="AvayaUI(failed)">
+    <classes>
+      <class name="qa.testcases.Test2">
+        <methods>
+          <include name="instaLoginTest"/>
+        </methods>
+      </class> <!-- qa.testcases.Test2 -->
+    </classes>
+  </test> <!-- AvayaUI(failed) -->
+</suite> <!-- Failed suite [Regression] -->

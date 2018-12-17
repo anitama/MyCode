@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Regression">
+  <test thread-count="2" name="AvayaUI">
+    <classes>
+      <class name="qa.testcases.Test3"/>
+      <class name="qa.testcases.Test1"/>
+      <class name="qa.testcases.Test2"/>
+    </classes>
+  </test> <!-- AvayaUI -->
+</suite> <!-- Regression -->
